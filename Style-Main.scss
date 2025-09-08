@@ -1,5 +1,21 @@
-header{
-    >a.gredienTBtn{
-        background-image: linear-gradient(120deg,pink,rgb(248, 128, 248),rgb(140, 205, 227),rgba(238, 238, 66, 0.943));
+header {
+    >a.gredienTBtn {
+        background-image: linear-gradient(120deg, pink, rgb(248, 128, 248), rgb(140, 205, 227), rgba(238, 238, 66, 0.943));
     }
+
+    >div.partition {
+        >div.fFalt {
+            >div {
+
+                &:hover {
+                    border: none;
+                    background-image: linear-gradient(170deg, pink, rgb(220, 134, 220), rgb(140, 205, 227), rgba(238, 238, 66, 0.943));
+                }
+
+            }
+        }
+    }
+}
+.lightTheme{
+    background-color: lightblue;
 }
