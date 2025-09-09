@@ -4,7 +4,9 @@ header {
     }
 
     >div.partition {
-        >div.fFalt {
+
+        >div.fFalt,
+        div.sFalt {
             >div {
 
                 &:hover {
@@ -16,6 +18,11 @@ header {
         }
     }
 }
-.lightTheme{
+
+.lightTheme {
     background-color: lightblue;
+}
+
+main {
+    
 }
