@@ -1,8 +1,7 @@
 header > a.gredienTBtn {
   background-image: linear-gradient(120deg, pink, rgb(248, 128, 248), rgb(140, 205, 227), rgba(238, 238, 66, 0.943));
 }
-header > div.partition > div.fFalt > div:hover,
-header > div.partition div.sFalt > div:hover {
+header > div.partition > div > div:hover {
   border: none;
   background-image: linear-gradient(170deg, pink, rgb(220, 134, 220), rgb(140, 205, 227), rgba(238, 238, 66, 0.943));
 }
@@ -12,8 +11,8 @@ header > div.partition div.sFalt > div:hover {
 }
 
 main > div.ourPartner > div:nth-child(2) > div.first .swiper {
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
 }
 main > div.ourPartner > div:nth-child(2) > div.first .swiper-slide {
   text-align: center;
@@ -24,6 +23,25 @@ main > div.ourPartner > div:nth-child(2) > div.first .swiper-slide {
   align-items: center;
 }
 main > div.ourPartner > div:nth-child(2) > div.first .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main > div.ourPartner > div:nth-child(2) > div.secondSwi .swiper {
+  width: 200px;
+  height: 200px;
+}
+main > div.ourPartner > div:nth-child(2) > div.secondSwi .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div.ourPartner > div:nth-child(2) > div.secondSwi .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;

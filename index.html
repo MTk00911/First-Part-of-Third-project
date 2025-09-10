@@ -79,7 +79,8 @@
                 believers and supporters of the future of decentralization and digital assets.
             </p>
         </div>
-        <!-- there is a problem -->
+
+
         <div class="partition mx-auto w-7/12 text-white flex">
 
             <div class="w-3/12 h-12/12 flex flex-col border-r">
@@ -98,6 +99,8 @@
 
 
             </div>
+
+
             <div class="w-3/12 h-12/12 flex flex-col border-r">
 
                 <div class=" flex flex-col items-center border-l   border-r p-4 box-border  ">
@@ -107,7 +110,7 @@
                 </div>
 
 
-                <div class=" flex flex-col items-center border-l   border-r p-4 box-border  ">
+                <div class=" flex flex-col items-center border-l   border-r p-4 box-border  border-t">
                     <h1 class="text-[25px] font-bold mb-2">1200+</h1>
                     <sapn class="mb-2 opacity-80">crypto asset pairs</sapn>
                 </div>
@@ -116,9 +119,47 @@
             </div>
 
 
+            <div class="w-3/12 h-12/12 flex flex-col border-r">
+
+
+
+                <div class=" flex flex-col items-center border-l border-r p-4 box-border">
+                    <h1 class="text-[25px] font-bold mb-2">~30</h1>
+                    <sapn class="mb-2 opacity-80">Gravity Teammates</sapn>
+                    <sapn class="opacity-80">(& growing)</sapn>
+
+                </div>
+
+                <div class=" flex flex-col items-center border-l border-r p-4  box-border border-t">
+                    <h1 class="text-[25px] font-bold mb-2">24/7</h1>
+                    <sapn class="mb-2 opacity-80">liquidity</sapn>
+
+                </div>
+
+            </div>
+
+
+            <div class="w-3/12 h-12/12 flex flex-col ">
+
+
+                <div class=" flex flex-col items-center border-l p-4 box-border">
+                    <h1 class="text-[25px] font-bold mb-2">25+</h1>
+                    <sapn class="mb-2 opacity-80">leading global and</sapn>
+                    <sapn class="opacity-80">local crypto exchanges</sapn>
+
+                </div>
+
+                <div class=" flex flex-col items-center border-l p-4 box-border border-t">
+                    <h1 class="text-[25px] font-bold mb-2">5 Billion +</h1>
+                    <sapn class="mb-2 opacity-80">Trades done to data</sapn>
+
+                </div>
+
+
+
+            </div>
 
         </div>
-        <!-- there is a problem -->
 
 
     </header>
@@ -185,24 +226,41 @@
         <div class="ourPartner w-10/12  mx-auto  flex mt-9">
             <div class="w-5/12 flex flex-col items-start">
                 <img src="./Assets/Images/coinShapes.png" alt="">
-                <h1 class="text-[40px] font-bold mt-6 w-7/12  text-white">Our Partners & Friends</h1>
+                <h1 class="text-[40px] font-bold  w-7/12 mt-6 text-white">Our Partners & Friends</h1>
             </div>
-            <div class="w-6/12">
+
+
+            <div class="w-6/12 flex">
                 <!-- start first vertical swiper -->
-                <div class="first w-5/12">
+                <div class="first w-5/12 h-[100%]">
+                    <div class="swiper mySwiperV">
+                        <div class="swiper-wrapper rounded-xl">
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
 
-
-
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
                 <!-- end first vertical swiper -->
 
 
                 <!-- start second vertical swiper -->
-                <div class="w-5/12"></div>
+                <div class="secondSwi w-5/12">
+                    <div class="swiper mySwiperVer">
+                        <div class="swiper-wrapperS rounded-xl">
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
                 <!-- end second vertical swiper -->
 
             </div>
         </div>
+        <img src="" alt="">
         <!-- end swiper vertical(the vertical swiper) -->
 
         <div class="goodcompany text-white flex flex-col items-center mt-6">
@@ -322,14 +380,48 @@
     </main>
     <footer>
     </footer>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 
     <!-- start first vertical swiper(js) -->
-
+    <script>
+        var swiper = new Swiper(".mySwiperV", {
+            direction: "vertical",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 1860,
+                disableOnInteraction: false
+            },
+        });
+    </script>
     <!-- end first vertical swiper(js) -->
 
+
+
+
+    <!-- start second vertical swiper(js) -->
+    <script>
+        var swiper = new Swiper(".mySwiperVer", {
+            direction: "vertical",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 1860,
+                disableOnInteraction: false
+            },
+        });
+    </script>
+    <!-- end second vertical swiper(js) -->
 
     <!-- start swiper horizontsl(js) -->
     <script>

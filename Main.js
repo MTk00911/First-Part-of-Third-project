@@ -1,14 +1,14 @@
-let flag = true
+let exam = true
 
 $("a#themE").on("click", function () {
-    if (flag === true) {
+    if (exam === true) {
         $("header").addClass("lightTheme")
-        flag = false
+        exam = false
     }
     else {
 
         $("header").removeClass("lightTheme")
-        flag = true
+        exam = true
     }
 })
 
@@ -26,3 +26,53 @@ btnSecond.addEventListener("click", function () {
     firstAdv.classList.remove("d-nonE")
     secondAdv.classList.add("d-nonE")
 })
+
+
+
+
+let html = ""
+let xml = ""
+let firstvercarousel = document.querySelector("div.swiper-wrapper")
+function fetchDataCaro() {
+    xml = new XMLHttpRequest()
+    xml.open("get", "http://localhost:3000/verticalcarouselF")
+    xml.responseType = "json"
+    xml.onload = () => {
+        xml.response.forEach((elem) => {
+            html +=
+                `
+        <div class="swiper-slide"><img src=${elem.imgSrc} alt=""></div>
+
+        `
+            firstvercarousel.innerHTML = html
+
+        })
+    }
+    xml.onerror = () => {
+        alert("There is aproblem")
+    }
+
+    xml.send(null)
+}
+fetchDataCaro()
+
+let secondvercarousel = document.querySelector("div.swiper-wrapperS")
+function fetchSecondCarouseldata() {
+    let html = ""
+
+    fetch("http://localhost:3000/verticalcarouselS")
+        .then((dataSwi) => dataSwi.json())
+        .then((res) => {
+            res.forEach((elen) => {
+                html +=
+                    `
+                 <div class="swiper-slide"><img src=${elen.imagesrc} alt=""></div>
+
+                `
+
+            })
+            secondvercarousel.innerHTML = html
+        })
+
+}
+fetchSecondCarouseldata()

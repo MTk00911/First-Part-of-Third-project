@@ -1,0 +1,30 @@
+{
+    "verticalcarouselF": [
+        {
+            "imgSrc": "./Assets/Images/Binance.png"
+        },
+        {
+            "imgSrc": "./Assets/Images/Bitbank.png"
+        },
+        {
+            "imgSrc": "./Assets/Images/Binance.png"
+        },
+        {
+            "imgSrc": "./Assets/Images/Bitbank.png"
+        }
+    ],
+    "verticalcarouselS": [
+        {
+            "imagesrc": "./Assets/Images/Bitstopm.png"
+        },
+        {
+            "imagesrc": "./Assets/Images/Coinbase.png"
+        },
+        {
+            "imagesrc": "./Assets/Images/Bitstopm.png"
+        },
+        {
+            "imagesrc": "./Assets/Images/Coinbase.png"
+        }
+    ]
+}
