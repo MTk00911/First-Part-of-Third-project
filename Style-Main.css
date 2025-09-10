@@ -17,7 +17,7 @@ main > div.ourPartner > div:nth-child(2) > div.first .swiper {
 main > div.ourPartner > div:nth-child(2) > div.first .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #444;
+  background: #0d0d0d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@ main > div.ourPartner > div:nth-child(2) > div.secondSwi .swiper {
 main > div.ourPartner > div:nth-child(2) > div.secondSwi .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #444;
+  background: #050505;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,4 +105,8 @@ main > div.contactUs > a.gredienTBtn {
 
 .d-nonE {
   display: none;
+}
+
+.d-inlineBlick {
+  display: inline-block;
 }/*# sourceMappingURL=Style-Main.css.map */

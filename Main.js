@@ -56,7 +56,7 @@ function fetchDataCaro() {
 }
 fetchDataCaro()
 
-let secondvercarousel = document.querySelector("div.swiper-wrapperS")
+let secondvercarousel = document.querySelector("div.secondSwi>div.mySwiperVer>div.swiper-wrapper")
 function fetchSecondCarouseldata() {
     let html = ""
 
@@ -76,3 +76,20 @@ function fetchSecondCarouseldata() {
 
 }
 fetchSecondCarouseldata()
+
+
+
+let jumpBtn =document.querySelector("a#jumpBtn")
+$("a#jumpBtn").on("scroll", function () {
+    let st =$(this).scrollTop()
+
+    if (st>1000) {
+        jumpBtn.classList.remove("d-nonE")        
+        jumpBtn.classList.add("d-inlineBlick")        
+    } 
+    else {
+        jumpBtn.classList.add("d-nonE")        
+        jumpBtn.classList.remove("d-inlineBlick")        
+        
+    }
+})
