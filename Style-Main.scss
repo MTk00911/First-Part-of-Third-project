@@ -118,6 +118,13 @@ main {
             transform: rotate(-90deg);
         }
     }
+
+    >div.contactUs {
+        >a.gredienTBtn {
+            font-weight: bold;
+            background-image: linear-gradient(120deg, pink, rgb(248, 128, 248), rgb(140, 205, 227), rgba(238, 238, 66, 0.943));
+        }
+    }
 }
 
 .d-nonE {
