@@ -1,16 +1,11 @@
-let exam = true
 
-$("a#themE").on("click", function () {
-    if (exam === true) {
-        $("header").addClass("lightTheme")
-        exam = false
-    }
-    else {
-
-        $("header").removeClass("lightTheme")
-        exam = true
-    }
+let btntheme = document.querySelector("a#themE")
+btntheme.addEventListener("click", function () {
+    document.querySelector("header").classList.toggle("lightTheme")
 })
+
+
+
 
 let btNext = document.querySelector("button#btNext")
 let firstAdv = document.querySelector("h1#firstAdv")
@@ -79,17 +74,17 @@ fetchSecondCarouseldata()
 
 
 
-let jumpBtn =document.querySelector("a#jumpBtn")
+let jumpBtn = document.querySelector("a#jumpBtn")
 $("a#jumpBtn").on("scroll", function () {
-    let st =$(this).scrollTop()
+    let st = $(this).scrollTop()
 
-    if (st>1000) {
-        jumpBtn.classList.remove("d-nonE")        
-        jumpBtn.classList.add("d-inlineBlick")        
-    } 
+    if (st > 1000) {
+        jumpBtn.classList.remove("d-nonE")
+        jumpBtn.classList.add("d-inlineBlick")
+    }
     else {
-        jumpBtn.classList.add("d-nonE")        
-        jumpBtn.classList.remove("d-inlineBlick")        
-        
+        jumpBtn.classList.add("d-nonE")
+        jumpBtn.classList.remove("d-inlineBlick")
+
     }
 })
