@@ -1,5 +1,6 @@
 header {
-    background-color: #020617;
+    transition: background-color 0.5s ease;
+
     >a.gredienTBtn {
         background-image: linear-gradient(120deg, pink, rgb(248, 128, 248), rgb(140, 205, 227), rgba(238, 238, 66, 0.943));
     }
@@ -12,6 +13,8 @@ header {
                 &:hover {
                     border: none;
                     background-image: linear-gradient(170deg, pink, rgb(220, 134, 220), rgb(140, 205, 227), rgba(238, 238, 66, 0.943));
+                    transition-duration: 600ms;
+
                 }
 
             }
@@ -161,22 +164,23 @@ main {
     display: none;
 }
 
-.d-inlineBlick{
+.d-inlineBlick {
     display: inline-block;
 }
 
 footer {}
 
 
-@media (min-width:768px) and (max-width:1280px){
-    header{
-        >div.partition{
-            >div{
-                >div{
-                    >span{
+@media (min-width:768px) and (max-width:1280px) {
+    header {
+        >div.partition {
+            >div {
+                >div {
+                    >span {
                         display: none !important;
                     }
-                    >span{
+
+                    >span {
                         display: none;
                     }
                 }
@@ -184,4 +188,3 @@ footer {}
         }
     }
 }
-

@@ -1,7 +1,12 @@
 
-let btntheme = document.querySelector("a#themE")
+let btntheme = document.querySelector("button#themE")
 btntheme.addEventListener("click", function () {
     document.querySelector("header").classList.toggle("lightTheme")
+    document.querySelector("header").classList.toggle("bg-[#020617]")
+    document.querySelector("main").classList.toggle("lightTheme")
+    document.querySelector("main").classList.toggle("bg-[#020617]")
+    document.querySelector("footer").classList.toggle("lightTheme")
+    document.querySelector("footer").classList.toggle("bg-[#020617]")
 })
 
 
@@ -25,52 +30,52 @@ btnSecond.addEventListener("click", function () {
 
 
 
-let html = ""
-let xml = ""
-let firstvercarousel = document.querySelector("div.swiper-wrapper")
-function fetchDataCaro() {
-    xml = new XMLHttpRequest()
-    xml.open("get", "http://localhost:3000/verticalcarouselF")
-    xml.responseType = "json"
-    xml.onload = () => {
-        xml.response.forEach((elem) => {
-            html +=
-                `
-        <div class="swiper-slide"><img src=${elem.imgSrc} alt=""></div>
+// let html = ""
+// let xml = ""
+// let firstvercarousel = document.querySelector("div.swiper-wrapper")
+// function fetchDataCaro() {
+//     xml = new XMLHttpRequest()
+//     xml.open("get", "http://localhost:3000/verticalcarouselF")
+//     xml.responseType = "json"
+//     xml.onload = () => {
+//         xml.response.forEach((elem) => {
+//             html +=
+//                 `
+//         <div class="swiper-slide"><img src=${elem.imgSrc} alt=""></div>
 
-        `
-            firstvercarousel.innerHTML = html
+//         `
+//             firstvercarousel.innerHTML = html
 
-        })
-    }
-    xml.onerror = () => {
-        alert("There is aproblem")
-    }
+//         })
+//     }
+//     xml.onerror = () => {
+//         alert("There is aproblem")
+//     }
 
-    xml.send(null)
-}
-fetchDataCaro()
+//     xml.send(null)
+// }
+// fetchDataCaro()
 
-let secondvercarousel = document.querySelector("div.secondSwi>div.mySwiperVer>div.swiper-wrapper")
-function fetchSecondCarouseldata() {
-    let html = ""
+// let secondvercarousel = document.querySelector("div.secondSwi>div.mySwiperVer>div.swiper-wrapper")
+// function fetchSecondCarouseldata() {
+//     let html = ""
 
-    fetch("http://localhost:3000/verticalcarouselS")
-        .then((dataSwi) => dataSwi.json())
-        .then((res) => {
-            res.forEach((elen) => {
-                html +=
-                    `
-                 <div class="swiper-slide"><img src=${elen.imagesrc} alt=""></div>
+//     fetch("http://localhost:3000/verticalcarouselS")
+//         .then((dataSwi) => dataSwi.json())
+//         .then((res) => {
+//             res.forEach((elen) => {
+//                 html +=
+//                     `
+//                  <div class="swiper-slide"><img src=${elen.imagesrc} alt=""></div>
 
-                `
+//                 `
 
-            })
-            secondvercarousel.innerHTML = html
-        })
+//             })
+//             secondvercarousel.innerHTML = html
+//         })
 
-}
-fetchSecondCarouseldata()
+// }
+// fetchSecondCarouseldata()
 
 
 
