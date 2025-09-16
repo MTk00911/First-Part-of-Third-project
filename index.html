@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/output.css">
@@ -22,394 +23,867 @@
 
 <body>
 
-    <header class="bg-[#020617]" id="up">
+    <div class="en">
+        <header class="bg-[#020617]" id="up">
 
-        <div class="navigation flex w-6/6 justify-around p-2 box-border">
-
-
-            <img src="./Assets/Images/MainLogo.png" alt="" class="">
+            <div class="navigation flex w-6/6 justify-around  p-2 box-border">
 
 
-            <nav class="w-4/12">
-                <ul class="w-[100%] flex justify-between list-none text-white items-center">
-                    <li><a href="">About Us</a></li>
-                    <li>
-                        <div class="dropdown">
-                            <a class="btn btn-close-white dropdown-toggle font-bold" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Our Services
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">BitCoin</a></li>
-                                <li><a class="dropdown-item" href="#">Ethereum</a></li>
-                                <li><a class="dropdown-item" href="#">Crypto</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="">Work with Us</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul>
-            </nav>
-
-            <button  class="flex items-center text-white " id="themE">
-
-                <img src="./Assets/Images/Dotted.png" alt="" class="mr-2">
-                Get In Touch
-            </button>
-        </div>
-
-        <div class="adverTitle w-6/6 flex flex-col items-center text-white justify-between">
-            <h1 class="text-[40px] font-bold mt-5 mb-3">Balancing</h1>
-            <h1 class="text-[40px] font-bold mt-2 mb-4">Crypto Markets</h1>
-            <p class="mt-5 mb-5 w-3/12 text-center opacity-80">Our fully automated proprietary quantitative trading
-                software
-                provides 24/7 liquidity to 170+ crypto
-                assets across 25+ centralized spot and derivative crypto exchanges.
-            </p>
-        </div>
-
-        <a href="" class="gredienTBtn p-2 box-border block mx-auto w-1/12 md:max-xl:w-2/12  text-center rounded-sm mb-14">Get in touch</a>
+                <img src="./Assets/Images/MainLogo.png" alt="" class="">
 
 
-        <div class="AboutGravity mx-auto text-white flex flex-col items-center mt-32">
-            <h1 class="text-[40px] font-bold mt-3">About Gravity Team</h1>
-            <p class="mt-5 mb-5 w-3/12 text-center opacity-80">At Gravity Team, we are on the mission to balance the
-                supply and
-                demand across crypto markets worldwide.
-                We are a crypto native market maker founded by traders, developers, and innovators who are strong
-                believers and supporters of the future of decentralization and digital assets.
-            </p>
-        </div>
+                <nav class="w-4/12">
+                    <ul class="w-[100%] flex justify-between list-none text-white items-center">
+                        <li><a href="">About Us</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn btn-close-white dropdown-toggle font-bold" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Services
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">BitCoin</a></li>
+                                    <li><a class="dropdown-item" href="#">Ethereum</a></li>
+                                    <li><a class="dropdown-item" href="#">Crypto</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn btn-close-white dropdown-toggle font-bold" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Change Language
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#" >English</a></li>
+                                    <li><a class="dropdown-item" href="#" id="faBtn">Persian</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="">Work with Us</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </nav>
 
 
-        <div class="partition mx-auto w-7/12 text-white flex  sm:max-xl:hidden ">
+                <button class="flex items-center text-white " id="themE">
 
-            <div class="w-3/12 h-12/12 flex flex-col border-r">
-
-
-                <div class=" flex flex-col items-center border-r p-4 box-border">
-                    <h1 class="text-[25px] font-bold mb-2">~$100 Billion</h1>
-                    <span class="mb-2 opacity-80">cumulative trading</span>
-                    <span class=" opacity-80">volume to date</span>
-                </div>
-
-                <div class=" flex flex-col items-center border-r p-4 box-border border-t">
-                    <h1 class="text-[25px] font-bold mb-2">2017</h1>
-                    <span class="mb-2 opacity-80">start,crypto-natives</span>
-                </div>
+                    <img src="./Assets/Images/Dotted.png" alt="" class="mr-2">
+                    Get In Touch
+                </button>
 
 
             </div>
 
+            <div class="adverTitle w-6/6 flex flex-col items-center text-white justify-between">
+                <h1 class="text-[40px] font-bold mt-5 mb-3">Balancing</h1>
+                <h1 class="text-[40px] font-bold mt-2 mb-4">Crypto Markets</h1>
+                <p class="mt-5 mb-5 w-3/12 text-center opacity-80">Our fully automated proprietary quantitative trading
+                    software
+                    provides 24/7 liquidity to 170+ crypto
+                    assets across 25+ centralized spot and derivative crypto exchanges.
+                </p>
+            </div>
 
-            <div class="w-3/12 h-12/12 flex flex-col border-r">
+            <a href=""
+                class="gredienTBtn p-2 box-border block mx-auto w-1/12 md:max-xl:w-2/12  text-center rounded-sm mb-14">Get
+                in touch</a>
 
-                <div class=" flex flex-col items-center border-l   border-r p-4 box-border  ">
-                    <h1 class="text-[25px] font-bold mb-2">0/8%</h1>
-                    <sapn class="mb-2 opacity-80">of the global crypto</sapn>
-                    <sapn class="opacity-80">spot trading volume</sapn>
+
+            <div class="AboutGravity mx-auto text-white flex flex-col items-center mt-32">
+                <h1 class="text-[40px] font-bold mt-3">About Gravity Team</h1>
+                <p class="mt-5 mb-5 w-3/12 text-center opacity-80">At Gravity Team, we are on the mission to balance the
+                    supply and
+                    demand across crypto markets worldwide.
+                    We are a crypto native market maker founded by traders, developers, and innovators who are strong
+                    believers and supporters of the future of decentralization and digital assets.
+                </p>
+            </div>
+
+
+            <div class="partition mx-auto w-7/12 text-white flex  sm:max-xl:hidden ">
+
+                <div class="w-3/12 h-12/12 flex flex-col border-r">
+
+
+                    <div class=" flex flex-col items-center border-r p-4 box-border">
+                        <h1 class="text-[25px] font-bold mb-2">~$100 Billion</h1>
+                        <span class="mb-2 opacity-80">cumulative trading</span>
+                        <span class=" opacity-80">volume to date</span>
+                    </div>
+
+                    <div class=" flex flex-col items-center border-r p-4 box-border border-t">
+                        <h1 class="text-[25px] font-bold mb-2">2017</h1>
+                        <span class="mb-2 opacity-80">start,crypto-natives</span>
+                    </div>
+
+
                 </div>
 
 
-                <div class=" flex flex-col items-center border-l   border-r p-4 box-border  border-t">
-                    <h1 class="text-[25px] font-bold mb-2">1200+</h1>
-                    <sapn class="mb-2 opacity-80">crypto asset pairs</sapn>
+                <div class="w-3/12 h-12/12 flex flex-col border-r">
+
+                    <div class=" flex flex-col items-center border-l   border-r p-4 box-border  ">
+                        <h1 class="text-[25px] font-bold mb-2">0/8%</h1>
+                        <sapn class="mb-2 opacity-80">of the global crypto</sapn>
+                        <sapn class="opacity-80">spot trading volume</sapn>
+                    </div>
+
+
+                    <div class=" flex flex-col items-center border-l   border-r p-4 box-border  border-t">
+                        <h1 class="text-[25px] font-bold mb-2">1200+</h1>
+                        <sapn class="mb-2 opacity-80">crypto asset pairs</sapn>
+                    </div>
+
+
                 </div>
 
+
+                <div class="w-3/12 h-12/12 flex flex-col border-r">
+
+
+
+                    <div class=" flex flex-col items-center border-l border-r p-4 box-border">
+                        <h1 class="text-[25px] font-bold mb-2">~30</h1>
+                        <sapn class="mb-2 opacity-80">Gravity Teammates</sapn>
+                        <sapn class="opacity-80">(& growing)</sapn>
+
+                    </div>
+
+                    <div class=" flex flex-col items-center border-l border-r p-4  box-border border-t">
+                        <h1 class="text-[25px] font-bold mb-2">24/7</h1>
+                        <sapn class="mb-2 opacity-80">liquidity</sapn>
+
+                    </div>
+
+                </div>
+
+
+                <div class="w-3/12 h-12/12 flex flex-col ">
+
+
+                    <div class=" flex flex-col items-center border-l p-4 box-border">
+                        <h1 class="text-[25px] font-bold mb-2">25+</h1>
+                        <sapn class="mb-2 opacity-80">leading global and</sapn>
+                        <sapn class="opacity-80">local crypto exchanges</sapn>
+
+                    </div>
+
+                    <div class=" flex flex-col items-center border-l p-4 box-border border-t">
+                        <h1 class="text-[25px] font-bold mb-2">5 Billion +</h1>
+                        <sapn class="mb-2 opacity-80">Trades done to data</sapn>
+
+                    </div>
+
+
+
+                </div>
 
             </div>
 
 
-            <div class="w-3/12 h-12/12 flex flex-col border-r">
+        </header>
 
+        <main class="w-[100%] bg-[#020617] relative">
 
-
-                <div class=" flex flex-col items-center border-l border-r p-4 box-border">
-                    <h1 class="text-[25px] font-bold mb-2">~30</h1>
-                    <sapn class="mb-2 opacity-80">Gravity Teammates</sapn>
-                    <sapn class="opacity-80">(& growing)</sapn>
-
-                </div>
-
-                <div class=" flex flex-col items-center border-l border-r p-4  box-border border-t">
-                    <h1 class="text-[25px] font-bold mb-2">24/7</h1>
-                    <sapn class="mb-2 opacity-80">liquidity</sapn>
-
-                </div>
-
+            <!-- start introduction -->
+            <div class="cryptoMarket  flex flex-col items-center p-5 box-border text-white">
+                <h1 class="text-[40px] font-bold mt-3">Crypto Market Making</h1>
+                <p class="w-4/12 text-center leading-10 mt-8 opacity-80">
+                    We are a global crypto liquidity provider and algorithmic market maker. We trade digital assets
+                    listed
+                    on Centralized Exchanges in over 15 countries worldwide.
+                </p>
             </div>
+            <!-- end introduction -->
 
 
-            <div class="w-3/12 h-12/12 flex flex-col ">
-
-
-                <div class=" flex flex-col items-center border-l p-4 box-border">
-                    <h1 class="text-[25px] font-bold mb-2">25+</h1>
-                    <sapn class="mb-2 opacity-80">leading global and</sapn>
-                    <sapn class="opacity-80">local crypto exchanges</sapn>
-
-                </div>
-
-                <div class=" flex flex-col items-center border-l p-4 box-border border-t">
-                    <h1 class="text-[25px] font-bold mb-2">5 Billion +</h1>
-                    <sapn class="mb-2 opacity-80">Trades done to data</sapn>
-
-                </div>
-
-
-
-            </div>
-
-        </div>
-
-
-    </header>
-
-    <main class="w-[100%] bg-[#020617] relative">
-
-        <!-- start introduction -->
-        <div class="cryptoMarket  flex flex-col items-center p-5 box-border text-white">
-            <h1 class="text-[40px] font-bold mt-3">Crypto Market Making</h1>
-            <p class="w-4/12 text-center leading-10 mt-8 opacity-80">
-                We are a global crypto liquidity provider and algorithmic market maker. We trade digital assets listed
-                on Centralized Exchanges in over 15 countries worldwide.
-            </p>
-        </div>
-        <!-- end introduction -->
-
-
-        <!-- start first part of  adv -->
-        <div class="cryptoProjects w-10/12  mx-auto flex justify-center items-center">
-            <div class="w-6/12 flex flex-col items-start ml-12">
-                <h1 class="text-[36px]   mt-3 w-5/12 sm:w-8/12 md:max-xl:w-9/12 md:max-xl:text-[30px] text-white mb-2">Market Making for Crypto Projects</h1>
-                <h3 class="text-[22px] font-bold mt-3 w-5/12 md:max-xl:w-9/12 text-white mb-3 ">Accelerate your token’s journey by
-                    boosting its
-                    liquidity
-                </h3>
-                <span class="opacity-80 text-white w-7/12 mb-4 lg:max-md:!opacity-0 max-lg:hidden">
-                    We invest in building long-term, sustainable relationships and support our projects in their growth
-                    journey with our services, industry expertise and network.
-                </span>
-                <a href="" class="flex items-center text-decoration-underline text-white"> Learn more
-                </a>
-            </div>
-            <div class="w-4/12 flex justify-center "><img src="./Assets/Images/shapes.png" alt="" class="sm:max-xl:w-[68%]"></div>
-        </div>
-        <!-- end first part of  adv -->
-
-
-
-        <!-- start second part of  adv -->
-        <div class="cryptoExchange w-10/12  mx-auto flex justify-around items-center mt-9">
-
-            <div class="w-4/12 flex justify-center "><img src="./Assets/Images/pCTrade.png" alt="" class="sm:max-xl:w-[68%]"></div>
-
-            <div class="w-6/12 flex flex-col items-end ml-12">
-                <div class="w-6/12 flex flex-col items-start">
-                    <h1 class="text-[36px]   mt-3 w-11/12 text-white mb-2 md:max-2xl:w-12/12 md:max-2xl:text-[26px]">Market Making for Crypto Exchanges</h1>
-                    <h3 class="text-[22px] font-bold mt-3 w-10/12 text-white mb-3 ">
-                        Attract more traders and projects with deep order books & liquidity
+            <!-- start first part of  adv -->
+            <div class="cryptoProjects w-10/12  mx-auto flex justify-center items-center">
+                <div class="w-6/12 flex flex-col items-start ml-12">
+                    <h1
+                        class="text-[36px]   mt-3 w-5/12 sm:w-8/12 md:max-xl:w-9/12 md:max-xl:text-[30px] text-white mb-2">
+                        Market Making for Crypto Projects</h1>
+                    <h3 class="text-[22px] font-bold mt-3 w-5/12 md:max-xl:w-9/12 text-white mb-3 ">Accelerate your
+                        token’s
+                        journey by
+                        boosting its
+                        liquidity
                     </h3>
-                    <span class="opacity-80 text-white w-12/12 mb-4 max-lg:hidden">
-                        Our world-class market making services are proven to help local and emerging exchanges win
-                        traders
-                        and gain market-leading positions of up to 90% market dominance.
+                    <span class="opacity-80 text-white w-7/12 mb-4 lg:max-md:!opacity-0 max-lg:hidden">
+                        We invest in building long-term, sustainable relationships and support our projects in their
+                        growth
+                        journey with our services, industry expertise and network.
                     </span>
                     <a href="" class="flex items-center text-decoration-underline text-white"> Learn more
                     </a>
                 </div>
+                <div class="w-4/12 flex justify-center "><img src="./Assets/Images/shapes.png" alt=""
+                        class="sm:max-xl:w-[68%]"></div>
             </div>
-        </div>
-        <!-- end second part of  adv -->
+            <!-- end first part of  adv -->
 
 
-        <!-- start swiper vertical(the vertical swiper) -->
-        <div class="ourPartner w-10/12  mx-auto  flex mt-9">
-            <div class="w-5/12 flex flex-col items-start">
-                <img src="./Assets/Images/coinShapes.png" alt="">
-                <h1 class="text-[40px] font-bold  w-7/12 mt-6 text-white">Our Partners & Friends</h1>
-            </div>
 
+            <!-- start second part of  adv -->
+            <div class="cryptoExchange w-10/12  mx-auto flex justify-around items-center mt-9">
 
-            <div class="w-6/12 flex">
-                <!-- start first vertical swiper -->
-                <div class="first w-5/12 h-[100%]">
-                    <div class="swiper mySwiperV">
-                        <div class="swiper-wrapper rounded-xl">
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
+                <div class="w-4/12 flex justify-center "><img src="./Assets/Images/pCTrade.png" alt=""
+                        class="sm:max-xl:w-[68%]"></div>
 
-                        </div>
-                        <div class="swiper-pagination"></div>
+                <div class="w-6/12 flex flex-col items-end ml-12">
+                    <div class="w-6/12 flex flex-col items-start">
+                        <h1
+                            class="text-[36px]   mt-3 w-11/12 text-white mb-2 md:max-2xl:w-12/12 md:max-2xl:text-[26px]">
+                            Market Making for Crypto Exchanges</h1>
+                        <h3 class="text-[22px] font-bold mt-3 w-10/12 text-white mb-3 ">
+                            Attract more traders and projects with deep order books & liquidity
+                        </h3>
+                        <span class="opacity-80 text-white w-12/12 mb-4 max-lg:hidden">
+                            Our world-class market making services are proven to help local and emerging exchanges win
+                            traders
+                            and gain market-leading positions of up to 90% market dominance.
+                        </span>
+                        <a href="" class="flex items-center text-decoration-underline text-white"> Learn more
+                        </a>
                     </div>
                 </div>
-                <!-- end first vertical swiper -->
+            </div>
+            <!-- end second part of  adv -->
 
 
-                <!-- start second vertical swiper -->
-                <div class="secondSwi w-5/12">
-                    <div class="swiper mySwiperVer">
-                        <div class="swiper-wrapper rounded-xl">
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
+            <!-- start swiper vertical(the vertical swiper) -->
+            <div class="ourPartner w-10/12  mx-auto  flex mt-9">
+                <div class="w-5/12 flex flex-col items-start">
+                    <img src="./Assets/Images/coinShapes.png" alt="">
+                    <h1 class="text-[40px] font-bold  w-7/12 mt-6 text-white">Our Partners & Friends</h1>
+                </div>
 
+
+                <div class="w-6/12 flex">
+                    <!-- start first vertical swiper -->
+                    <div class="first w-5/12 h-[100%]">
+                        <div class="swiper mySwiperV">
+                            <div class="swiper-wrapper rounded-xl">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
                         </div>
-                        <div class="swiper-pagination"></div>
                     </div>
+                    <!-- end first vertical swiper -->
+
+
+                    <!-- start second vertical swiper -->
+                    <div class="secondSwi w-5/12">
+                        <div class="swiper mySwiperVer">
+                            <div class="swiper-wrapper rounded-xl">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+                    <!-- end second vertical swiper -->
 
                 </div>
-                <!-- end second vertical swiper -->
-
             </div>
-        </div>
-        <!-- end swiper vertical(the vertical swiper) -->
+            <!-- end swiper vertical(the vertical swiper) -->
 
-        <div class="goodcompany text-white flex flex-col items-center mt-6">
-            <h1 class="text-[40px] font-bold mt-3 mb-3" id="firstAdv">We are in a good company</h1>
-            <h1 class="text-[40px] font-bold mt-3 mb-3 d-nonE" id="secondAdv">We are one of the best companies</h1>
-            <p class="mb-4 opacity-80">Our partnerships have delivered great value to our projects and we’re happy to
-                share some of their
-                feedback below
-            </p>
-            <div>
-                <button class="text-[40px]" id="btNext"><i class="fa-solid fa-circle-arrow-left"></i></button>
-                <button class="text-[40px] ml-9" id="btnSecond"><i
-                        class="fa-regular fa-circle-arrow-right font-bold"></i></button>
-            </div>
-        </div>
-
-        <!-- start swiper horizontsl -->
-        <div class="horiSwiper w-7/12 mx-auto mt-4">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide flex flex-col items-center text-white">
-                        <p class="w-8/12 sm:max-xl:w-12/12 md:max-2xl:w-10/12 leading-[3rem]">Since 2019, Gravity team has been an astounding market maker
-                            for Bitkub. They have proven
-                            themselves to be one of the most consistent, committed and driven market makers on our
-                            exchange. Gravity Team has contributed high-quality volume and has proven to be very
-                            reliable and trustworthy partner. We strongly advocate Gravity Team as they have been an
-                            indispensable part of our market-making team.
-                        </p>
-                        <span class="mt-3 opacity-80">Atthakrit Chimplapibul</span>
-                        <div class="flex w-5/12 mt-3 justify-around">
-                            <span>Co-founder & CEO of Bitkub</span>
-                            <span>|</span>
-                            <img src="./Assets/Images/bitkub.png" alt="" class="w-[50%]">
-                        </div>
-                    </div>
-                    <div class="swiper-slide flex flex-col items-center text-white">
-                        <p class="w-8/12 leading-[3rem]  sm:max-xl:w-12/12">
-                            Digital money is a form of currency that exists only electronically, allowing for fast and
-                            secure transactions without physical cash. It facilitates easier and cheaper financial
-                            transfers by eliminating intermediaries and enabling borderless payments. As digital money
-                            adoption grows, it supports financial inclusion and streamlines the global economy.
-                        </p>
-                        <span class="mt-3 opacity-80">finance concepts.</span>
-                        <div class="flex w-5/12 mt-3 justify-around">
-                            <span>The Rise and Benefits of Digital Money</span>
-                            <span>|</span>
-                            <img src="./Assets/Images/bitkub.png" alt="" class="w-[50%]">
-                        </div>
-                    </div>
-                    <div class="swiper-slide flex flex-col items-center text-white">
-                        <p class="w-8/12 leading-[3rem] sm:max-xl:w-12/12">
-                            Bitcoin is the world's first decentralized cryptocurrency that enables secure peer-to-peer
-                            digital transactions without the need for a central authority like a bank. Launched in 2009
-                            by an unknown person or group called Satoshi Nakamoto, it operates on a blockchain, which is
-                            a public ledger recording every transaction. Bitcoin is scarce, with a limited supply of 21
-                            million coins, and is widely used as both a digital currency and an investment asset.
-                        </p>
-                        <span class="mt-3 opacity-80">Bitcoin USD</span>
-                        <div class="flex w-5/12 mt-3 justify-around">
-                            <span>Bitcoin: Revolutionizing Digital Currency and Decentralized Finance"</span>
-                            <span>|</span>
-                            <img src="./Assets/Images/bitkub.png" alt="" class="w-[50%]">
-                        </div>
-                    </div>
+            <div class="goodcompany text-white flex flex-col items-center mt-6">
+                <h1 class="text-[40px] font-bold mt-3 mb-3" id="firstAdv">We are in a good company</h1>
+                <h1 class="text-[40px] font-bold mt-3 mb-3 d-nonE" id="secondAdv">We are one of the best companies</h1>
+                <p class="mb-4 opacity-80">Our partnerships have delivered great value to our projects and we’re happy
+                    to
+                    share some of their
+                    feedback below
+                </p>
+                <div>
+                    <button class="text-[40px]" id="btNext"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                    <button class="text-[40px] ml-9" id="btnSecond"><i
+                            class="fa-regular fa-circle-arrow-right font-bold"></i></button>
                 </div>
-                <!-- <div class="swiper-button-next"></div>
+            </div>
+
+            <!-- start swiper horizontsl -->
+            <div class="horiSwiper w-7/12 mx-auto mt-4">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex flex-col items-center text-white">
+                            <p class="w-8/12 sm:max-xl:w-12/12 md:max-2xl:w-10/12 leading-[3rem]">Since 2019, Gravity
+                                team
+                                has been an astounding market maker
+                                for Bitkub. They have proven
+                                themselves to be one of the most consistent, committed and driven market makers on our
+                                exchange. Gravity Team has contributed high-quality volume and has proven to be very
+                                reliable and trustworthy partner. We strongly advocate Gravity Team as they have been an
+                                indispensable part of our market-making team.
+                            </p>
+                            <span class="mt-3 opacity-80">Atthakrit Chimplapibul</span>
+                            <div class="flex w-5/12 mt-3 justify-around">
+                                <span>Co-founder & CEO of Bitkub</span>
+                                <span>|</span>
+                                <img src="./Assets/Images/bitkub.png" alt="" class="w-[50%]">
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center text-white">
+                            <p class="w-8/12 leading-[3rem]  sm:max-xl:w-12/12">
+                                Digital money is a form of currency that exists only electronically, allowing for fast
+                                and
+                                secure transactions without physical cash. It facilitates easier and cheaper financial
+                                transfers by eliminating intermediaries and enabling borderless payments. As digital
+                                money
+                                adoption grows, it supports financial inclusion and streamlines the global economy.
+                            </p>
+                            <span class="mt-3 opacity-80">finance concepts.</span>
+                            <div class="flex w-5/12 mt-3 justify-around">
+                                <span>The Rise and Benefits of Digital Money</span>
+                                <span>|</span>
+                                <img src="./Assets/Images/bitkub.png" alt="" class="w-[50%]">
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center text-white">
+                            <p class="w-8/12 leading-[3rem] sm:max-xl:w-12/12">
+                                Bitcoin is the world's first decentralized cryptocurrency that enables secure
+                                peer-to-peer
+                                digital transactions without the need for a central authority like a bank. Launched in
+                                2009
+                                by an unknown person or group called Satoshi Nakamoto, it operates on a blockchain,
+                                which is
+                                a public ledger recording every transaction. Bitcoin is scarce, with a limited supply of
+                                21
+                                million coins, and is widely used as both a digital currency and an investment asset.
+                            </p>
+                            <span class="mt-3 opacity-80">Bitcoin USD</span>
+                            <div class="flex w-5/12 mt-3 justify-around">
+                                <span>Bitcoin: Revolutionizing Digital Currency and Decentralized Finance"</span>
+                                <span>|</span>
+                                <img src="./Assets/Images/bitkub.png" alt="" class="w-[50%]">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div> -->
-                <div class="autoplay-progress">
-                    <svg viewBox="0 0 48 48">
-                        <circle cx="24" cy="24" r="20"></circle>
-                    </svg>
-                    <span></span>
+                    <div class="autoplay-progress">
+                        <svg viewBox="0 0 48 48">
+                            <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span></span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- end swiper horizontsl -->
+            <!-- end swiper horizontsl -->
 
-        <!-- start jumpBtn -->
-        <a href="#up" class="text-[30px] font-bold fixed bottom-[2%] right-[1%] text-[purple]" id="jumpBtn">
-            <i class="fa-solid fa-circle-arrow-up"></i>
-        </a>
-        <!-- end jumpBtn -->
+            <!-- start jumpBtn -->
+            <a href="#up" class="text-[30px] font-bold fixed bottom-[2%] right-[1%] text-[purple]" id="jumpBtn">
+                <i class="fa-solid fa-circle-arrow-up"></i>
+            </a>
+            <!-- end jumpBtn -->
 
 
-        <!-- start ivite part -->
-        <div class="w-9/12 mx-auto flex items-center ">
-            <img src="./Assets/Images/invitePart.png" alt="" class="sm:max-xl:w-[50%]">
-            <div class="flex flex-col text-white w-6/12 ">
-                <p class="mb-2 leading-7  sm:max-md:w-11/12">Join our community of innovators, problem solvers and owners who apply
-                    scientific discovery
-                    techniques to make crypto markets a better place for everyone.
+            <!-- start ivite part -->
+            <div class="w-9/12 mx-auto flex items-center ">
+                <img src="./Assets/Images/invitePart.png" alt="" class="sm:max-xl:w-[50%]">
+                <div class="flex flex-col text-white w-6/12 ">
+                    <p class="mb-2 leading-7  sm:max-md:w-11/12">Join our community of innovators, problem solvers and
+                        owners who apply
+                        scientific discovery
+                        techniques to make crypto markets a better place for everyone.
+                    </p>
+                    <p class="mb-2 leading-7 sm:max-md:w-11/12">As we emphasize it in our name – Gravity Team, we are a
+                        team. A team of
+                        bright, talented people, each
+                        masters of their specialty, curious about the world and eager to solve the new exciting
+                        cryptocurrency market problems, build cool stuff and have fun whilst doing so!
+                    </p>
+                    <a href="" class="text-decoration-underline mt-4 flex items-center">
+                        Learn more about working with us
+                        <i class="fa-solid fa-arrow-right ml-4"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- end ivite part -->
+
+
+            <!-- start call part -->
+            <div class="contactUs flex flex-col items-center text-white w-6/12 mx-auto">
+                <h1 class="text-[40px] font-bold mt-3">Contact Us</h1>
+                <p class="w-8/12 text-center mt-3 opacity-80">
+                    We are always open to discuss new value-adding partnerships. Do reach out if you are an exchange or
+                    a
+                    project looking for liquidity; an algorithmic trader or a software developer looking to improve the
+                    markets with us or just have a great idea you can’t wait to share with us!
                 </p>
-                <p class="mb-2 leading-7 sm:max-md:w-11/12">As we emphasize it in our name – Gravity Team, we are a team. A team of
-                    bright, talented people, each
-                    masters of their specialty, curious about the world and eager to solve the new exciting
-                    cryptocurrency market problems, build cool stuff and have fun whilst doing so!
-                </p>
-                <a href="" class="text-decoration-underline mt-4 flex items-center">
-                    Learn more about working with us
-                    <i class="fa-solid fa-arrow-right ml-4"></i>
+                <a href=""
+                    class="text-[24px] sm:max-md:text-[18px] sm:max-2xl:w-4/12 gredienTBtn p-2 box-border block mx-auto w-2/12 text-center rounded-sm mb-4 m-5">Get
+                    in
+                    touch
                 </a>
             </div>
-        </div>
-        <!-- end ivite part -->
+            <!-- end call part -->
 
 
-        <!-- start call part -->
-        <div class="contactUs flex flex-col items-center text-white w-6/12 mx-auto">
-            <h1 class="text-[40px] font-bold mt-3">Contact Us</h1>
-            <p class="w-8/12 text-center mt-3 opacity-80">
-                We are always open to discuss new value-adding partnerships. Do reach out if you are an exchange or a
-                project looking for liquidity; an algorithmic trader or a software developer looking to improve the
-                markets with us or just have a great idea you can’t wait to share with us!
-            </p>
-            <a href=""
-                class="text-[24px] sm:max-md:text-[18px] sm:max-2xl:w-4/12 gredienTBtn p-2 box-border block mx-auto w-2/12 text-center rounded-sm mb-4 m-5">Get
-                in
-                touch
-            </a>
-        </div>
-        <!-- end call part -->
-
-
-    </main>
+        </main>
 
 
 
-    <footer class="w-[100%] bg-[#020617] border-t p-3 box-border">
-        <div class="w-[65%] mx-auto mt-5 ">
-            <div class="flex w-6/6 h-[70%] justify-between">
+        <footer class="w-[100%] bg-[#020617] border-t p-3 box-border">
+            <div class="w-[65%] mx-auto mt-5 ">
+                <div class="flex w-6/6 h-[70%] justify-between">
+                    <nav class="w-4/12">
+                        <ul class="w-[100%] list-none text-white ">
+                            <li><a href="" class="text-[20px] font-bold mb-1">Gravity Team</a></li>
+                            <li><a href="" class="mt-1 opacity-80">About Us</a></li>
+                            <li><a href="" class="mt-1 opacity-80">Work with Us</a></li>
+
+                        </ul>
+                    </nav>
+                    <img src="./Assets/Images/MainLogo.png" alt="" class="w-2/12 sm:max-md:hidden">
+                </div>
+
+                <div class="flex w-6/6 mt-5 h-[30%] justify-between text-white ">
+                    <span class="opacity-80">Terms of Use & Privacy Policy</span>
+                    <span class="opacity-80">©2022 Gravity Team. All Rights Reserved</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <div class="fa hidden w-[100%]" dir="rtl">
+
+        <header class="bg-[#020617]" id="up">
+
+            <div class="navigation flex w-6/6 justify-around  p-2 box-border">
+
+
+                <img src="./Assets/Images/MainLogo.png" alt="" class="">
+
+
                 <nav class="w-4/12">
-                    <ul class="w-[100%] list-none text-white ">
-                        <li><a href="" class="text-[20px] font-bold mb-1">Gravity Team</a></li>
-                        <li><a href="" class="mt-1 opacity-80">About Us</a></li>
-                        <li><a href="" class="mt-1 opacity-80">Work with Us</a></li>
+                    <ul class="w-[100%] flex justify-between list-none text-white items-center">
+                        <li><a href="">در باره ما</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn btn-close-white dropdown-toggle font-bold" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    خدمات ما
+                                </a>
 
+                                <ul class="dropdown-menu text-justify">
+                                    <li><a class="dropdown-item" href="#">بیت کوین</a></li>
+                                    <li><a class="dropdown-item" href="#">اتریوم</a></li>
+                                    <li><a class="dropdown-item" href="#">کریپتو</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn btn-close-white dropdown-toggle font-bold" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    تغییر زبان
+                                </a>
+
+                                <ul class="dropdown-menu text-justify">
+                                    <li><a class="dropdown-item" href="#" id="enBtn">انگلیسی</a></li>
+                                    <li><a class="dropdown-item" href="#">فارسی</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="">با ما کار کنید</a></li>
+                        <li><a href="">بلاگ</a></li>
                     </ul>
                 </nav>
-                <img src="./Assets/Images/MainLogo.png" alt="" class="w-2/12 sm:max-md:hidden">
+
+
+                <button class="flex items-center text-white " id="themE">
+
+                    <img src="./Assets/Images/Dotted.png" alt="" class="mr-2">
+                    تماس بگیرید
+                </button>
+
+
             </div>
 
-            <div class="flex w-6/6 mt-5 h-[30%] justify-between text-white ">
-                <span class="opacity-80">Terms of Use & Privacy Policy</span>
-                <span class="opacity-80">©2022 Gravity Team. All Rights Reserved</span>
+            <div class="adverTitle w-6/6 flex flex-col items-center text-white justify-between">
+                <h1 class="text-[40px] font-bold mt-5 mb-3">متعادل کردن</h1>
+                <h1 class="text-[40px] font-bold mt-2 mb-4">بازارهای رمزنگاری</h1>
+                <p class="mt-5 mb-5 w-3/12 text-center opacity-80">
+                    نرم‌افزار معاملات کمی اختصاصی و کاملاً خودکار ما، نقدینگی ۲۴ ساعته را برای بیش از ۱۷۰ دارایی کریپتو
+                    در بیش از ۲۵ صرافی متمرکز اسپات و مشتقات کریپتو فراهم می‌کند.
+                </p>
             </div>
-        </div>
-    </footer>
+
+            <a href=""
+                class="gredienTBtn p-2 box-border block mx-auto w-1/12 md:max-xl:w-2/12  text-center rounded-sm mb-14">
+                با ما تماس بگیرید</a>
+
+
+            <div class="AboutGravity mx-auto text-white flex flex-col items-center mt-32">
+                <h1 class="text-[40px] font-bold mt-3">در باره تیم جاذبه</h1>
+                <p class="mt-5 mb-5 w-3/12 text-center opacity-80">
+                    در تیم گراویتی، ما ماموریت داریم تا عرضه و تقاضا را در بازارهای کریپتو در سراسر جهان متعادل کنیم. ما
+                    یک بازارساز بومی کریپتو هستیم که توسط معامله‌گران، توسعه‌دهندگان و نوآورانی تأسیس شده‌ایم که به
+                    آینده‌ی تمرکززدایی و دارایی‌های دیجیتال اعتقاد راسخ دارند و از آن حمایت می‌کنند.
+                </p>
+            </div>
+
+
+            <div class="partition mx-auto w-7/12 text-white flex  sm:max-xl:hidden ">
+
+                <div class="w-3/12 h-12/12 flex flex-col border-r">
+
+
+                    <div class=" flex flex-col items-center border-r p-4 box-border">
+                        <h1 class="text-[25px] font-bold mb-2">~$100 میلیارد</h1>
+                        <span class="mb-2 opacity-80">معاملات تجمعی</span>
+                        <span class=" opacity-80">حجم تا به امروز</span>
+                    </div>
+
+                    <div class=" flex flex-col items-center border-r p-4 box-border border-t">
+                        <h1 class="text-[25px] font-bold mb-2">2017</h1>
+                        <span class="mb-2 opacity-80">شروع، بومیان رمزنگاری</span>
+                    </div>
+
+
+                </div>
+
+
+                <div class="w-3/12 h-12/12 flex flex-col border-r">
+
+                    <div class=" flex flex-col items-center border-l   border-r p-4 box-border  ">
+                        <h1 class="text-[25px] font-bold mb-2">0/8%</h1>
+                        <sapn class="mb-2 opacity-80">کریپتو جهانی</sapn>
+                        <sapn class="opacity-80">حجم معاملات نقطه ای</sapn>
+                    </div>
+
+
+                    <div class=" flex flex-col items-center border-l   border-r p-4 box-border  border-t">
+                        <h1 class="text-[25px] font-bold mb-2">1200+</h1>
+                        <sapn class="mb-2 opacity-80">جفت دارایی های کریپتو</sapn>
+                    </div>
+
+
+                </div>
+
+
+                <div class="w-3/12 h-12/12 flex flex-col border-r">
+
+
+
+                    <div class=" flex flex-col items-center border-l border-r p-4 box-border">
+                        <h1 class="text-[25px] font-bold mb-2">~30</h1>
+                        <sapn class="mb-2 opacity-80">هم‌تیمی‌های جاذبه</sapn>
+                        <sapn class="opacity-80">(& رشد کردن)</sapn>
+
+                    </div>
+
+                    <div class=" flex flex-col items-center border-l border-r p-4  box-border border-t">
+                        <h1 class="text-[25px] font-bold mb-2">24/7</h1>
+                        <sapn class="mb-2 opacity-80">نقدینگی</sapn>
+
+                    </div>
+
+                </div>
+
+
+                <div class="w-3/12 h-12/12 flex flex-col ">
+
+
+                    <div class=" flex flex-col items-center border-l p-4 box-border">
+                        <h1 class="text-[25px] font-bold mb-2">25+</h1>
+                        <sapn class="mb-2 opacity-80">پیشرو جهانی و</sapn>
+                        <sapn class="opacity-80">صرافی های رمزنگاری محلی</sapn>
+
+                    </div>
+
+                    <div class=" flex flex-col items-center border-l p-4 box-border border-t">
+                        <h1 class="text-[25px] font-bold mb-2">5 میلیارد +</h1>
+                        <sapn class="mb-2 opacity-80">معاملات انجام شده با داده‌ها</sapn>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+        </header>
+
+        <main class="w-[100%] bg-[#020617] relative">
+
+            <!-- start introduction -->
+            <div class="cryptoMarket  flex flex-col items-center p-5 box-border text-white">
+                <h1 class="text-[40px] font-bold mt-3">بازاریابی رمزارز</h1>
+                <p class="w-4/12 text-center leading-10 mt-8 opacity-80">
+                    ما یک ارائه دهنده نقدینگی جهانی ارزهای دیجیتال و بازارساز الگوریتمی هستیم. ما دارایی‌های دیجیتال -
+                    که در صرافی‌های متمرکز در بیش از 15 کشور در سراسر جهان فهرست شده‌اند - را معامله می‌کنیم.
+                </p>
+            </div>
+            <!-- end introduction -->
+
+
+            <!-- start first part of  adv -->
+            <div class="cryptoProjects w-10/12  mx-auto flex justify-center items-center">
+                <div class="w-6/12 flex flex-col items-start ml-12">
+                    <h1
+                        class="text-[36px]   mt-3 w-5/12 sm:w-8/12 md:max-xl:w-9/12 md:max-xl:text-[30px] text-white mb-2">
+                        بازارسازی برای پروژه‌های کریپتو
+                    </h1>
+                    <h3 class="text-[22px] font-bold mt-3 w-5/12 md:max-xl:w-9/12 text-white mb-3 ">Accelerate your
+                        سفر توکن با افزایش نقدینگی آن
+                    </h3>
+                    <span class="opacity-80 text-white w-7/12 mb-4 lg:max-md:!opacity-0 max-lg:hidden">
+                        ما در ایجاد روابط بلندمدت و پایدار سرمایه‌گذاری می‌کنیم و با خدمات، تخصص صنعتی و شبکه خود، از
+                        پروژه‌هایمان در مسیر رشدشان حمایت می‌کنیم.
+                    </span>
+                    <a href="" class="flex items-center text-decoration-underline text-white"> بیشتر یاد بگیرید
+                    </a>
+                </div>
+                <div class="w-4/12 flex justify-center "><img src="./Assets/Images/shapes.png" alt=""
+                        class="sm:max-xl:w-[68%]"></div>
+            </div>
+            <!-- end first part of  adv -->
+
+
+
+            <!-- start second part of  adv -->
+            <div class="cryptoExchange w-10/12  mx-auto flex justify-around items-center mt-9">
+
+                <div class="w-4/12 flex justify-center "><img src="./Assets/Images/pCTrade.png" alt=""
+                        class="sm:max-xl:w-[68%]"></div>
+
+                <div class="w-6/12 flex flex-col items-end ml-12">
+                    <div class="w-6/12 flex flex-col items-start">
+                        <h1
+                            class="text-[36px]   mt-3 w-11/12 text-white mb-2 md:max-2xl:w-12/12 md:max-2xl:text-[26px]">
+                            بازارسازی برای صرافی‌های کریپتو
+                        </h1>
+                        <h3 class="text-[22px] font-bold mt-3 w-10/12 text-white mb-3 ">
+                            با ثبت سفارشات و نقدینگی بالا، معامله‌گران و پروژه‌های بیشتری را جذب کنید
+                        </h3>
+                        <span class="opacity-80 text-white w-12/12 mb-4 max-lg:hidden">
+                            خدمات بازارسازی ما در سطح جهانی ثابت کرده است که به صرافی‌های محلی و نوظهور کمک می‌کند تا
+                            معامله‌گران را جذب کنند و به موقعیت‌های پیشرو در بازار با تسلط تا ۹۰٪ بر بازار دست یابند.
+                        </span>
+                        <a href="" class="flex items-center text-decoration-underline text-white"> بیشتر یاد بگیرید
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end second part of  adv -->
+
+
+            <!-- start swiper vertical(the vertical swiper) -->
+            <div class="ourPartner w-10/12  mx-auto  flex mt-9">
+                <div class="w-5/12 flex flex-col items-start">
+                    <img src="./Assets/Images/coinShapes.png" alt="">
+                    <h1 class="text-[40px] font-bold  w-7/12 mt-6 text-white">
+                        شرکا و دوستان ما
+                    </h1>
+                </div>
+
+
+                <div class="w-6/12 flex">
+                    <!-- start first vertical swiper -->
+                    <div class="first w-5/12 h-[100%]">
+                        <div class="swiper mySwiperV">
+                            <div class="swiper-wrapper rounded-xl">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <!-- end first vertical swiper -->
+
+
+                    <!-- start second vertical swiper -->
+                    <div class="secondSwi w-5/12">
+                        <div class="swiper mySwiperVer">
+                            <div class="swiper-wrapper rounded-xl">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+                    <!-- end second vertical swiper -->
+
+                </div>
+            </div>
+            <!-- end swiper vertical(the vertical swiper) -->
+
+            <div class="goodcompany text-white flex flex-col items-center mt-6">
+                <h1 class="text-[40px] font-bold mt-3 mb-3" id="firstAdv">ما در یک جمع خوب هستیم</h1>
+                <h1 class="text-[40px] font-bold mt-3 mb-3 d-nonE" id="secondAdv">ما یکی از بهترین شرکت‌ها هستیم</h1>
+                <p class="mb-4 opacity-80">
+                    مشارکت‌های ما ارزش زیادی برای پروژه‌های ما به ارمغان آورده است و ما خوشحالیم که برخی از بازخوردهای
+                    آنها را در زیر به اشتراک بگذاریم.
+                </p>
+                <div>
+                    <button class="text-[40px]" id="btNext"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                    <button class="text-[40px] ml-9" id="btnSecond"><i
+                            class="fa-regular fa-circle-arrow-right font-bold"></i></button>
+                </div>
+            </div>
+
+            <!-- start swiper horizontsl -->
+            <div class="horiSwiper w-7/12 mx-auto mt-4">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex flex-col items-center text-white">
+                            <p class="w-8/12 sm:max-xl:w-12/12 md:max-2xl:w-10/12 leading-[3rem]">
+                                از سال ۲۰۱۹، تیم Gravity یک بازارساز شگفت‌انگیز برای Bitkub بوده است. آنها ثابت کرده‌اند
+                                که یکی از ثابت‌قدم‌ترین، متعهدترین و باانگیزه‌ترین بازارسازان در صرافی ما هستند. تیم
+                                Gravity حجم معاملات با کیفیتی ارائه داده و ثابت کرده است که شریکی بسیار قابل اعتماد و
+                                امین است. ما قویاً از تیم Gravity حمایت می‌کنیم زیرا آنها بخش جدایی‌ناپذیری از تیم
+                                بازارساز ما بوده‌اند.
+                            </p>
+                            <span class="mt-3 opacity-80">آتاکریت چیمپلاپیبول</span>
+                            <div class="flex w-5/12 mt-3 justify-around">
+                                <span>هم‌بنیانگذار و مدیرعامل Bitkub</span>
+                                <span>|</span>
+                                <img src="./Assets/Images/bitkub.png" alt="" class="w-[50%]">
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center text-white">
+                            <p class="w-8/12 leading-[3rem]  sm:max-xl:w-12/12">
+                                پول دیجیتال نوعی ارز است که فقط به صورت الکترونیکی وجود دارد و امکان تراکنش‌های سریع و
+                                ایمن را بدون پول نقد فیزیکی فراهم می‌کند. این پول با حذف واسطه‌ها و امکان‌پذیر کردن
+                                پرداخت‌های بدون مرز، انتقال مالی آسان‌تر و ارزان‌تر را تسهیل می‌کند. با افزایش پذیرش پول
+                                دیجیتال، از شمول مالی پشتیبانی می‌کند و اقتصاد جهانی را ساده‌تر می‌کند.
+                            </p>
+                            <span class="mt-3 opacity-80">
+                                مفاهیم مالی
+                            </span>
+                            <div class="flex w-5/12 mt-3 justify-around">
+                                <span>ظهور و مزایای پول دیجیتال</span>
+                                <span>|</span>
+                                <img src="./Assets/Images/bitkub.png" alt="" class="w-[50%]">
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center text-white">
+                            <p class="w-8/12 leading-[3rem] sm:max-xl:w-12/12">
+
+                                بیت‌کوین اولین ارز دیجیتال غیرمتمرکز جهان است که تراکنش‌های دیجیتال همتا به همتا را بدون
+                                نیاز به یک مرجع مرکزی مانند بانک، امکان‌پذیر می‌کند. این ارز که در سال ۲۰۰۹ توسط شخص یا
+                                گروهی ناشناس به نام ساتوشی ناکاموتو راه‌اندازی شد، بر روی یک بلاکچین فعالیت می‌کند که یک
+                                دفتر کل عمومی است که هر تراکنش را ثبت می‌کند. بیت‌کوین کمیاب است و تعداد محدودی از آن در
+                                حدود ۲۱ میلیون سکه وجود دارد و به طور گسترده به عنوان یک ارز دیجیتال و یک دارایی
+                                سرمایه‌گذاری مورد استفاده قرار می‌گیرد.
+                            </p>
+                            <span class="mt-3 opacity-80">بیت کوین دلار آمریکا</span>
+                            <div class="flex w-5/12 mt-3 justify-around">
+                                <span>بیت‌کوین: انقلابی در ارز دیجیتال و امور مالی غیرمتمرکز</span>
+                                <span>|</span>
+                                <img src="./Assets/Images/bitkub.png" alt="" class="w-[50%]">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                    <div class="autoplay-progress">
+                        <svg viewBox="0 0 48 48">
+                            <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <!-- end swiper horizontsl -->
+
+            <!-- start jumpBtn -->
+            <a href="#up" class="text-[30px] font-bold fixed bottom-[2%] right-[1%] text-[purple]" id="jumpBtn">
+                <i class="fa-solid fa-circle-arrow-up"></i>
+            </a>
+            <!-- end jumpBtn -->
+
+
+            <!-- start ivite part -->
+            <div class="w-9/12 mx-auto flex items-center ">
+                <img src="./Assets/Images/invitePart.png" alt="" class="sm:max-xl:w-[50%]">
+                <div class="flex flex-col text-white w-6/12 ">
+                    <p class="mb-2 leading-7  sm:max-md:w-11/12">
+                        به جامعه نوآوران، حل‌کنندگان مشکلات و مالکانی که از تکنیک‌های اکتشاف علمی برای تبدیل بازارهای
+                        کریپتو به مکانی بهتر برای همه استفاده می‌کنند، بپیوندید.
+                    </p>
+                    <p class="mb-2 leading-7 sm:max-md:w-11/12">
+                        همانطور که در ناممان - تیم گراویتی - تأکید می‌کنیم، ما یک
+
+                        تیم هستیم. تیمی از افراد باهوش و بااستعداد، که هر کدام در تخصص خود استاد هستند، در مورد جهان
+                        کنجکاوند و مشتاقند مشکلات جدید و هیجان‌انگیز بازار ارزهای دیجیتال را حل کنند، چیزهای جالب بسازند
+                        و در حین انجام این کار لذت ببرند!
+                    </p>
+                    <a href="" class="text-decoration-underline mt-4 flex items-center">
+                        درباره همکاری با ما بیشتر بدانید
+                        <i class="fa-solid fa-arrow-right ml-4"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- end ivite part -->
+
+
+            <!-- start call part -->
+            <div class="contactUs flex flex-col items-center text-white w-6/12 mx-auto">
+                <h1 class="text-[40px] font-bold mt-3">تماس با ما</h1>
+                <p class="w-8/12 text-center mt-3 opacity-80">
+                    ما همیشه آماده‌ی بحث در مورد مشارکت‌های جدید برای افزایش ارزش افزوده هستیم. اگر شما یک صرافی یا یک
+                    پروژه هستید که به دنبال نقدینگی است؛ یک معامله‌گر الگوریتمی یا یک توسعه‌دهنده‌ی نرم‌افزار که به
+                    دنبال بهبود بازارها با ما است یا فقط ایده‌ی خوبی دارید که بی‌صبرانه منتظر به اشتراک گذاشتن آن با ما
+                    هستید، با ما تماس بگیرید!
+                </p>
+                <a href=""
+                    class="text-[24px] sm:max-md:text-[18px] sm:max-2xl:w-4/12 gredienTBtn p-2 box-border block mx-auto w-2/12 text-center rounded-sm mb-4 m-5">
+                   با ما تماس بگیرید
+                </a>
+            </div>
+            <!-- end call part -->
+
+
+        </main>
+
+
+
+        <footer class="w-[100%] bg-[#020617] border-t p-3 box-border">
+            <div class="w-[65%] mx-auto mt-5 ">
+                <div class="flex w-6/6 h-[70%] justify-between">
+                    <nav class="w-4/12">
+                        <ul class="w-[100%] list-none text-white ">
+                            <li><a href="" class="text-[20px] font-bold mb-1">تیم جاذبه</a></li>
+                            <li><a href="" class="mt-1 opacity-80">درباره ما</a></li>
+                            <li><a href="" class="mt-1 opacity-80">با ما کار کنید</a></li>
+
+                        </ul>
+                    </nav>
+                    <img src="./Assets/Images/MainLogo.png" alt="" class="w-2/12 sm:max-md:hidden">
+                </div>
+
+                <div class="flex w-6/6 mt-5 h-[30%] justify-between text-white ">
+                    <span class="opacity-80">شرایط استفاده و سیاست حفظ حریم خصوصی</span>
+                    <span class="opacity-80">©۲۰۲۲ تیم گراویتی. تمامی حقوق محفوظ است</span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
 
 
 
@@ -481,6 +955,7 @@
         });
     </script>
     <!-- end swiper horizontsl(js) -->
+
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
