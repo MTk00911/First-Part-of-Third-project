@@ -899,6 +899,14 @@ video {
     .sm\:max-2xl\:w-4\/12 {
       width: 33.333333%;
     }
+
+    .sm\:max-2xl\:w-5 {
+      width: 1.25rem;
+    }
+
+    .sm\:max-2xl\:w-5\/12 {
+      width: 41.666667%;
+    }
   }
 
   @media not all and (min-width: 1280px) {

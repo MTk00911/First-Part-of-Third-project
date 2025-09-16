@@ -10,6 +10,17 @@ btntheme.addEventListener("click", function () {
 })
 
 
+let themEFa = document.querySelector("button#themEFa")
+themEFa.addEventListener("click", function () {
+    document.querySelector("header").classList.toggle("lightTheme")
+    document.querySelector("header").classList.toggle("bg-[#020617]")
+    document.querySelector("main").classList.toggle("lightTheme")
+    document.querySelector("main").classList.toggle("bg-[#020617]")
+    document.querySelector("footer").classList.toggle("lightTheme")
+    document.querySelector("footer").classList.toggle("bg-[#020617]")
+})
+
+
 
 
 let btNext = document.querySelector("button#btNext")
