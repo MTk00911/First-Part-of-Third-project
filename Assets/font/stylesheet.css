@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'DM Sans 9pt';
+    src: url('DMSans9pt-Regular.eot');
+    src: url('DMSans9pt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DMSans9pt-Regular.woff2') format('woff2'),
+        url('DMSans9pt-Regular.woff') format('woff'),
+        url('DMSans9pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
