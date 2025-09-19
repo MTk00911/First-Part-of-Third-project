@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'IRANYekanWeb';
+    src: url('IRANYekanWeb-ExtraBold.eot');
+    src: url('IRANYekanWeb-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('IRANYekanWeb-ExtraBold.woff2') format('woff2'),
+        url('IRANYekanWeb-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

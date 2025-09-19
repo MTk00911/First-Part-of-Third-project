@@ -58,7 +58,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#" >English</a></li>
+                                    <li><a class="dropdown-item" href="#">English</a></li>
                                     <li><a class="dropdown-item" href="#" id="faBtn">Persian</a></li>
 
                                 </ul>
@@ -83,7 +83,8 @@
             <div class="adverTitle w-6/6 flex flex-col items-center text-white justify-between">
                 <h1 class="text-[40px] font-bold mt-5 mb-3">Balancing</h1>
                 <h1 class="text-[40px] font-bold mt-2 mb-4">Crypto Markets</h1>
-                <p class="mt-5 mb-5 w-3/12 text-center opacity-80">Our fully automated proprietary quantitative trading
+                <p class="mt-5 mb-5 w-3/12 text-center opacity-80 leading-3">Our fully automated proprietary
+                    quantitative trading
                     software
                     provides 24/7 liquidity to 170+ crypto
                     assets across 25+ centralized spot and derivative crypto exchanges.
@@ -461,17 +462,21 @@
 
     <div class="fa hidden w-[100%]" dir="rtl">
 
+
         <header class="bg-[#020617]" id="up">
 
-            <div class="navigation flex w-6/6 justify-around  p-2 box-border">
+            <div class="navigation flex w-6/6 justify-around  p-2 box-border relative">
 
 
                 <img src="./Assets/Images/MainLogo.png" alt="" class="">
 
 
-                <nav class="w-4/12">
+                <nav class="w-4/12 max-lg:hidden">
+
                     <ul class="w-[100%] flex justify-between list-none text-white items-center">
+
                         <li><a href="">در باره ما</a></li>
+
                         <li>
                             <div class="dropdown">
                                 <a class="btn btn-close-white dropdown-toggle font-bold" href="#" role="button"
@@ -508,6 +513,11 @@
                 </nav>
 
 
+                <button class="menuBar lg:hidden">
+                    <i class="fa-solid fa-bars text-[30px] font-bold text-white"></i>
+                </button>
+
+
                 <button class="flex items-center text-white " id="themEFa">
 
                     <img src="./Assets/Images/Dotted.png" alt="" class="mr-2">
@@ -515,12 +525,55 @@
                 </button>
 
 
+                <!-- start hiddenMenu -->
+                <ul class="menu menu-vertical w-[55%] lg:menu-horizontal bg-base-200 rounded-box absolute top-[50%] items-center  
+                hidden lg:hidden">
+
+                    <li><a href="">در باره ما</a></li>
+
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-close-black dropdown-toggle font-bold" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                خدمات ما
+                            </a>
+
+                            <ul class="dropdown-menu text-justify">
+                                <li><a class="dropdown-item" href="#">بیت کوین</a></li>
+                                <li><a class="dropdown-item" href="#">اتریوم</a></li>
+                                <li><a class="dropdown-item" href="#">کریپتو</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-close-black dropdown-toggle font-bold" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                تغییر زبان
+                            </a>
+
+                            <ul class="dropdown-menu text-justify">
+                                <li><a class="dropdown-item" href="#" id="enBtn">انگلیسی</a></li>
+                                <li><a class="dropdown-item" href="#">فارسی</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href="">با ما کار کنید</a></li>
+                    <li><a href="">بلاگ</a></li>
+                </ul>
+                <!-- end hiddenMenu -->
+
+
+
             </div>
 
             <div class="adverTitle w-6/6 flex flex-col items-center text-white justify-between">
                 <h1 class="text-[40px] font-bold mt-5 mb-3">متعادل کردن</h1>
                 <h1 class="text-[40px] font-bold mt-2 mb-4">بازارهای رمزنگاری</h1>
-                <p class="mt-5 mb-5 w-3/12 text-center opacity-80">
+                <p class="mt-5 mb-5 w-3/12 text-center opacity-80 leading-6">
                     نرم‌افزار معاملات کمی اختصاصی و کاملاً خودکار ما، نقدینگی ۲۴ ساعته را برای بیش از ۱۷۰ دارایی کریپتو
                     در بیش از ۲۵ صرافی متمرکز اسپات و مشتقات کریپتو فراهم می‌کند.
                 </p>
@@ -533,7 +586,7 @@
 
             <div class="AboutGravity mx-auto text-white flex flex-col items-center mt-32">
                 <h1 class="text-[40px] font-bold mt-3">در باره تیم جاذبه</h1>
-                <p class="mt-5 mb-5 w-3/12 text-center opacity-80">
+                <p class="mt-5 mb-5 w-3/12 text-center opacity-80 leading-6">
                     در تیم گراویتی، ما ماموریت داریم تا عرضه و تقاضا را در بازارهای کریپتو در سراسر جهان متعادل کنیم. ما
                     یک بازارساز بومی کریپتو هستیم که توسط معامله‌گران، توسعه‌دهندگان و نوآورانی تأسیس شده‌ایم که به
                     آینده‌ی تمرکززدایی و دارایی‌های دیجیتال اعتقاد راسخ دارند و از آن حمایت می‌کنند.
@@ -647,7 +700,7 @@
                     <h3 class="text-[22px] font-bold mt-3 w-5/12 md:max-xl:w-9/12 text-white mb-3 ">Accelerate your
                         سفر توکن با افزایش نقدینگی آن
                     </h3>
-                    <span class="opacity-80 text-white w-7/12 mb-4 lg:max-md:!opacity-0 max-lg:hidden">
+                    <span class="opacity-80 text-white w-7/12 mb-4 lg:max-md:!opacity-0 max-lg:hidden leading-6">
                         ما در ایجاد روابط بلندمدت و پایدار سرمایه‌گذاری می‌کنیم و با خدمات، تخصص صنعتی و شبکه خود، از
                         پروژه‌هایمان در مسیر رشدشان حمایت می‌کنیم.
                     </span>
@@ -676,7 +729,7 @@
                         <h3 class="text-[22px] font-bold mt-3 w-10/12 text-white mb-3 ">
                             با ثبت سفارشات و نقدینگی بالا، معامله‌گران و پروژه‌های بیشتری را جذب کنید
                         </h3>
-                        <span class="opacity-80 text-white w-12/12 mb-4 max-lg:hidden">
+                        <span class="opacity-80 text-white w-12/12 mb-4 max-lg:hidden  leading-6">
                             خدمات بازارسازی ما در سطح جهانی ثابت کرده است که به صرافی‌های محلی و نوظهور کمک می‌کند تا
                             معامله‌گران را جذب کنند و به موقعیت‌های پیشرو در بازار با تسلط تا ۹۰٪ بر بازار دست یابند.
                         </span>
@@ -844,7 +897,7 @@
             <!-- start call part -->
             <div class="contactUs flex flex-col items-center text-white w-6/12 mx-auto">
                 <h1 class="text-[40px] font-bold mt-3">تماس با ما</h1>
-                <p class="w-8/12 text-center mt-3 opacity-80">
+                <p class="w-8/12 text-center mt-3 opacity-80 leading-7">
                     ما همیشه آماده‌ی بحث در مورد مشارکت‌های جدید برای افزایش ارزش افزوده هستیم. اگر شما یک صرافی یا یک
                     پروژه هستید که به دنبال نقدینگی است؛ یک معامله‌گر الگوریتمی یا یک توسعه‌دهنده‌ی نرم‌افزار که به
                     دنبال بهبود بازارها با ما است یا فقط ایده‌ی خوبی دارید که بی‌صبرانه منتظر به اشتراک گذاشتن آن با ما
@@ -852,7 +905,7 @@
                 </p>
                 <a href=""
                     class="text-[24px] sm:max-md:text-[18px] sm:max-2xl:w-4/12 gredienTBtn p-2 box-border block mx-auto w-2/12 text-center rounded-sm mb-4 m-5">
-                   با ما تماس بگیرید
+                    با ما تماس بگیرید
                 </a>
             </div>
             <!-- end call part -->

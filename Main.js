@@ -116,6 +116,7 @@ let enBtn = document.querySelector("a#enBtn")
 faBtn.addEventListener("click", function () {
     en.classList.add("hidden")
     fa.classList.remove("hidden")
+    fa.classList.add("fontFarsi")
 
 })
 
@@ -123,5 +124,14 @@ faBtn.addEventListener("click", function () {
 enBtn.addEventListener("click", function () {
     en.classList.remove("hidden")
     fa.classList.add("hidden")
+    fa.classList.remove("fontFarsi")
 
+
+})
+
+let menuBar = document.querySelector("button.menuBar")
+let menu = document.querySelector("ul.menu")
+
+menuBar.addEventListener("click", function () {
+        menu.classList.toggle("hidden")
 })

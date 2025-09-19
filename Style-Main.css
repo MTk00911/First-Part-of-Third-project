@@ -122,4 +122,14 @@ main > div.contactUs > a.gredienTBtn {
   header > div.partition > div > div > span {
     display: none;
   }
+}
+@font-face {
+  font-family: yakan;
+  src: url(./Assets/font/iranYekan/IRANYekanWeb-ExtraBold.eot);
+  src: url(./Assets/font/iranYekan/IRANYekanWeb-ExtraBold.ttf);
+  src: url(./Assets/font/iranYekan/IRANYekanWeb-ExtraBold.woff2);
+  src: url(./Assets/font/iranYekan/iranyekanwebextrabold.9346e9a2.9346e9a2.woff);
+}
+.fontFarsi {
+  font-family: yakan;
 }/*# sourceMappingURL=Style-Main.css.map */
