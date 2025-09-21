@@ -91,7 +91,7 @@ fetchSecondCarouseldata()
 
 
 let jumpBtn = document.querySelector("a#jumpBtn")
-$("a#jumpBtn").on("scroll", function () {
+$(document).on("scroll", function () {
     let st = $(this).scrollTop()
 
     if (st > 1000) {
@@ -117,6 +117,21 @@ faBtn.addEventListener("click", function () {
     en.classList.add("hidden")
     fa.classList.remove("hidden")
     fa.classList.add("fontFarsi")
+    setTimeout(() => {
+        let userName = prompt("لطفا نام خود را وارد کنید :")
+        let userAge = parseInt(prompt("لطفا سن خود را وارد کنید :"))
+
+
+        if (userName == "مصطفی" || userAge == "19") {
+            alert(`خوش آمدید ${userName}`)
+        }
+        else {
+
+            alert("اشتباه")
+        }
+
+
+    }, 2800);
 
 })
 
@@ -125,6 +140,22 @@ enBtn.addEventListener("click", function () {
     en.classList.remove("hidden")
     fa.classList.add("hidden")
     fa.classList.remove("fontFarsi")
+    setTimeout(() => {
+        let userName = prompt("please enter Your Name :")
+        let userAge = parseInt(prompt("please Enter Your Age :"))
+
+
+        if (userName == "mostafa" || userAge == "19") {
+            alert(`Welcome ${userName}`)
+        }
+        else {
+
+            alert("Wrong")
+        }
+
+
+    }, 2800);
+
 
 
 })
@@ -133,5 +164,46 @@ let menuBar = document.querySelector("button.menuBar")
 let menu = document.querySelector("ul.menu")
 
 menuBar.addEventListener("click", function () {
-        menu.classList.toggle("hidden")
+    menu.classList.toggle("hidden")
 })
+
+
+let menuBTn = document.querySelector("button#menuBar")
+let menuVer = document.querySelector("ul#menuVer")
+
+
+
+menuBTn.addEventListener("click", function () {
+    menuVer.classList.toggle("lg:hidden")
+    console.log("salam");
+})
+
+
+
+
+
+setTimeout(() => {
+    let userName = prompt("please enter Your Name :")
+    let userAge = parseInt(prompt("please Enter Your Age :"))
+
+
+    if (userName == "mostafa" || userAge == "19") {
+        alert(`Welcome ${userName}`)
+    }
+    else {
+
+        alert("Wrong")
+    }
+
+
+}, 2800);
+
+
+
+
+
+
+
+
+
+

@@ -32,7 +32,7 @@
                 <img src="./Assets/Images/MainLogo.png" alt="" class="">
 
 
-                <nav class="w-4/12 sm:max-2xl:w-5/12">
+                <nav class="w-4/12 sm:max-2xl:w-5/12 max-lg:hidden">
                     <ul class="w-[100%] flex justify-between list-none text-white items-center">
                         <li><a href="">About Us</a></li>
                         <li>
@@ -71,11 +71,60 @@
                 </nav>
 
 
+                <button class="menuBar lg:hidden" id="menuBar">
+                    <i class="fa-solid fa-bars text-[30px] font-bold text-white"></i>
+                </button>
+
+
                 <button class="flex items-center text-white " id="themE">
 
                     <img src="./Assets/Images/Dotted.png" alt="" class="mr-2">
-                    Get In Touch
+
+
+                    Chamge Theme
                 </button>
+
+
+                <!-- start hiddenMenu -->
+                <ul class="menu menu-vertical w-[55%] lg:menu-horizontal bg-base-200 rounded-box absolute top-[20%] items-center  
+                 lg:hidden" id="menuVer">
+
+                    <li><a href="">About Us</a></li>
+
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-close-black dropdown-toggle font-bold" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Our Services
+                            </a>
+
+                            <ul class="dropdown-menu text-justify">
+                                <li><a class="dropdown-item" href="#">Bit Coin</a></li>
+                                <li><a class="dropdown-item" href="#">Etherium</a></li>
+                                <li><a class="dropdown-item" href="#">Crypto</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-close-black dropdown-toggle font-bold" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Change Language
+                            </a>
+
+                            <ul class="dropdown-menu text-justify">
+                                <li><a class="dropdown-item" href="#" id="enBtn">English</a></li>
+                                <li><a class="dropdown-item" href="#">Persian</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href=""> Work With Us</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+                <!-- end hiddenMenu -->
 
 
             </div>
@@ -513,7 +562,7 @@
                 </nav>
 
 
-                <button class="menuBar lg:hidden">
+                <button class="menuBar lg:hidden" id="menuBar">
                     <i class="fa-solid fa-bars text-[30px] font-bold text-white"></i>
                 </button>
 
@@ -527,7 +576,7 @@
 
                 <!-- start hiddenMenu -->
                 <ul class="menu menu-vertical w-[55%] lg:menu-horizontal bg-base-200 rounded-box absolute top-[50%] items-center  
-                hidden lg:hidden">
+                hidden lg:hidden" id="menuVer">
 
                     <li><a href="">در باره ما</a></li>
 
