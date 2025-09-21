@@ -111,7 +111,7 @@ let fa = document.querySelector("div.fa")
 
 
 let faBtn = document.querySelector("a#faBtn")
-let enBtn = document.querySelector("a#enBtn")
+let enBtn = document.querySelector("ul.dropdown-menu>li>a#enBtn")
 
 faBtn.addEventListener("click", function () {
     en.classList.add("hidden")
@@ -155,6 +155,8 @@ enBtn.addEventListener("click", function () {
 
 
     }, 2800);
+
+    console.log("hello");
 
 
 
