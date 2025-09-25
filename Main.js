@@ -166,7 +166,7 @@ let menuBar = document.querySelector("button.menuBar")
 let menu = document.querySelector("ul.menu")
 
 menuBar.addEventListener("click", function () {
-    menu.classList.toggle("hidden")
+    menu.classList.toggle("max-lg:hidden")
 })
 
 
@@ -184,21 +184,21 @@ menuBTn.addEventListener("click", function () {
 
 
 
-setTimeout(() => {
-    let userName = prompt("please enter Your Name :")
-    let userAge = parseInt(prompt("please Enter Your Age :"))
+// setTimeout(() => {
+//     let userName = prompt("please enter Your Name :")
+//     let userAge = parseInt(prompt("please Enter Your Age :"))
 
 
-    if (userName == "mostafa" || userAge == "19") {
-        alert(`Welcome ${userName}`)
-    }
-    else {
+//     if (userName == "mostafa" || userAge == "19") {
+//         alert(`Welcome ${userName}`)
+//     }
+//     else {
 
-        alert("Wrong")
-    }
+//         alert("Wrong")
+//     }
 
 
-}, 2800);
+// }, 2800);
 
 
 

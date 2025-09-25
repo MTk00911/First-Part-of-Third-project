@@ -87,7 +87,7 @@
 
                 <!-- start hiddenMenu -->
                 <ul class="menu menu-vertical w-[55%] lg:menu-horizontal bg-base-200 rounded-box absolute top-[20%] items-center  
-                 lg:hidden" id="menuVer">
+                 lg:hidden  max-lg:hidden" id="menuVer">
 
                     <li><a href="">About Us</a></li>
 
@@ -132,7 +132,7 @@
             <div class="adverTitle w-6/6 flex flex-col items-center text-white justify-between">
                 <h1 class="text-[40px] font-bold mt-5 mb-3">Balancing</h1>
                 <h1 class="text-[40px] font-bold mt-2 mb-4">Crypto Markets</h1>
-                <p class="mt-5 mb-5 w-3/12  opacity-80 !leading-7">Our fully automated proprietary
+                <p class="mt-5 mb-5 lg:w-3/12 max-lg:w-9/12 opacity-80 !leading-7">Our fully automated proprietary
                     quantitative trading
                     software
                     provides 24/7 liquidity to 170+ crypto
@@ -147,7 +147,7 @@
 
             <div class="AboutGravity mx-auto text-white flex flex-col items-center mt-32">
                 <h1 class="text-[40px] font-bold mt-3">About Gravity Team</h1>
-                <p class="mt-5 mb-5 w-3/12  opacity-80">At Gravity Team, we are on the mission to balance the
+                <p class="mt-5 mb-5 lg:w-3/12 max-lg:w-9/12 opacity-80">At Gravity Team, we are on the mission to balance the
                     supply and
                     demand across crypto markets worldwide.
                     We are a crypto native market maker founded by traders, developers, and innovators who are strong
@@ -156,7 +156,7 @@
             </div>
 
 
-            <div class="partition mx-auto w-7/12 text-white flex  sm:max-xl:hidden ">
+            <div class="partition mx-auto w-7/12 text-white flex  max-xl:hidden ">
 
                 <div class="w-3/12 h-12/12 flex flex-col border-r">
 
@@ -255,9 +255,9 @@
 
             <!-- start first part of  adv -->
             <div class="cryptoProjects w-10/12  mx-auto flex justify-center items-center">
-                <div class="w-6/12 flex flex-col items-start ml-12">
+                <div class="2xl:w-6/12 max-2xl:w-10/12  flex flex-col items-start ml-12">
                     <h1
-                        class="text-[36px]   mt-3 w-5/12 sm:w-8/12 md:max-xl:w-9/12 md:max-xl:text-[30px] text-white mb-2">
+                        class="text-[36px]   mt-3max-md:w-11/12 sm:w-8/12 md:max-xl:w-9/12 md:max-xl:text-[30px] text-white mb-2">
                         Market Making for Crypto Projects</h1>
                     <h3 class="text-[22px] font-bold mt-3 w-5/12 md:max-xl:w-9/12 text-white mb-3 ">Accelerate your
                         token’s
@@ -287,9 +287,9 @@
                         class="sm:max-xl:w-[68%]"></div>
 
                 <div class="w-6/12 flex flex-col items-end ml-12">
-                    <div class="w-6/12 flex flex-col items-start">
+                    <div class="2xl:w-6/12 max-2xl:w-10/12  flex flex-col items-start">
                         <h1
-                            class="text-[36px]   mt-3 w-11/12 text-white mb-2 md:max-2xl:w-12/12 md:max-2xl:text-[26px]">
+                            class="text-[36px]   mt-3 max-md:w-11/12 text-white mb-2 md:max-2xl:w-12/12 md:max-2xl:text-[26px]">
                             Market Making for Crypto Exchanges</h1>
                         <h3 class="text-[22px] font-bold mt-3 w-10/12 text-white mb-3 ">
                             Attract more traders and projects with deep order books & liquidity
@@ -311,13 +311,13 @@
             <div class="ourPartner w-10/12  mx-auto  flex mt-9">
                 <div class="w-5/12 flex flex-col items-start">
                     <img src="./Assets/Images/coinShapes.png" alt="">
-                    <h1 class="text-[40px] font-bold  w-7/12 mt-6 text-white">Our Partners & Friends</h1>
+                    <h1 class="text-[40px] font-bold xl:w-7/12  max-xl:w-11/12  mt-6 text-white">Our Partners & Friends</h1>
                 </div>
 
 
                 <div class="w-6/12 flex">
                     <!-- start first vertical swiper -->
-                    <div class="first w-5/12 h-[100%]">
+                    <div class="first w-5/12 h-[100%] max-md:hidden">
                         <div class="swiper mySwiperV">
                             <div class="swiper-wrapper rounded-xl">
                                 <div class="swiper-slide"></div>
@@ -331,7 +331,7 @@
 
 
                     <!-- start second vertical swiper -->
-                    <div class="secondSwi w-5/12">
+                    <div class="secondSwi w-5/12  max-md:hidden">
                         <div class="swiper mySwiperVer">
                             <div class="swiper-wrapper rounded-xl">
                                 <div class="swiper-slide"></div>
@@ -364,11 +364,13 @@
             </div>
 
             <!-- start swiper horizontsl -->
-            <div class="horiSwiper w-7/12 mx-auto mt-4">
+            <div class="horiSwiper xl:w-7/12 max-xl:w-10/12 mx-auto mt-4">
                 <div class="swiper mySwiper">
+
+
                     <div class="swiper-wrapper">
                         <div class="swiper-slide flex flex-col items-center text-white">
-                            <p class="w-8/12 sm:max-xl:w-12/12 md:max-2xl:w-10/12 leading-[3rem]">Since 2019, Gravity
+                            <p class="2xl:w-8/12 max-xl:w-12/12 xl:max-2xl:w-10/12 leading-[3rem]">Since 2019, Gravity
                                 team
                                 has been an astounding market maker
                                 for Bitkub. They have proven
@@ -385,7 +387,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide flex flex-col items-center text-white">
-                            <p class="w-8/12 leading-[3rem]  sm:max-xl:w-12/12">
+                            <p class="2xl:w-8/12 max-xl:w-12/12 xl:max-2xl:w-10/12 leading-[3rem]  ">
                                 Digital money is a form of currency that exists only electronically, allowing for fast
                                 and
                                 secure transactions without physical cash. It facilitates easier and cheaper financial
@@ -401,7 +403,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide flex flex-col items-center text-white">
-                            <p class="w-8/12 leading-[3rem] sm:max-xl:w-12/12">
+                            <p class="2xl:w-8/12 max-xl:w-12/12 xl:max-2xl:w-10/12 leading-[3rem] ">
                                 Bitcoin is the world's first decentralized cryptocurrency that enables secure
                                 peer-to-peer
                                 digital transactions without the need for a central authority like a bank. Launched in
@@ -428,6 +430,9 @@
                         </svg>
                         <span></span>
                     </div>
+
+
+
                 </div>
             </div>
             <!-- end swiper horizontsl -->
