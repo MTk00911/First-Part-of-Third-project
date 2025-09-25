@@ -132,4 +132,16 @@ main > div.contactUs > a.gredienTBtn {
 }
 .fontFarsi {
   font-family: yakan;
+}
+
+> h1 {
+  text-align: justify !important;
+}
+
+> span {
+  text-align: justify !important;
+}
+
+> p {
+  text-align: justify !important;
 }/*# sourceMappingURL=Style-Main.css.map */

@@ -574,16 +574,12 @@ video {
   right: 1%;
 }
 
-.top-\[40\%\] {
-  top: 40%;
+.top-\[20\%\] {
+  top: 20%;
 }
 
 .top-\[50\%\] {
   top: 50%;
-}
-
-.top-\[20\%\] {
-  top: 20%;
 }
 
 .m-5 {
@@ -872,12 +868,12 @@ video {
   font-weight: 700;
 }
 
-.leading-10 {
-  line-height: 2.5rem;
+.\!leading-3 {
+  line-height: .75rem !important;
 }
 
-.leading-3 {
-  line-height: .75rem;
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .leading-6 {
@@ -890,6 +886,14 @@ video {
 
 .leading-\[3rem\] {
   line-height: 3rem;
+}
+
+.\!leading-5 {
+  line-height: 1.25rem !important;
+}
+
+.\!leading-7 {
+  line-height: 1.75rem !important;
 }
 
 .text-\[purple\] {
