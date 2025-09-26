@@ -117,21 +117,21 @@ faBtn.addEventListener("click", function () {
     en.classList.add("hidden")
     fa.classList.remove("hidden")
     fa.classList.add("fontFarsi")
-    setTimeout(() => {
-        let userName = prompt("لطفا نام خود را وارد کنید :")
-        let userAge = parseInt(prompt("لطفا سن خود را وارد کنید :"))
+    // setTimeout(() => {
+    //     let userName = prompt("لطفا نام خود را وارد کنید :")
+    //     let userAge = parseInt(prompt("لطفا سن خود را وارد کنید :"))
 
 
-        if (userName == "مصطفی" || userAge == "19") {
-            alert(`خوش آمدید ${userName}`)
-        }
-        else {
+    //     if (userName == "مصطفی" || userAge == "19") {
+    //         alert(`خوش آمدید ${userName}`)
+    //     }
+    //     else {
 
-            alert("اشتباه")
-        }
+    //         alert("اشتباه")
+    //     }
 
 
-    }, 2800);
+    // }, 2800);
 
 })
 
